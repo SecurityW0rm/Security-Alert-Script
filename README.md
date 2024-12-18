@@ -56,6 +56,7 @@ cd Security-Alert-Script
 Get-ExecutionPolicy
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+Hit Y for yes
 
 ---
 
