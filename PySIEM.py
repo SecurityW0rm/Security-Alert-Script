@@ -11,7 +11,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_ADDRESS = "your_email@gmail.com" #enter your email address
 EMAIL_PASSWORD = "your_app_password" #enter the generated App Password
-TO_EMAIL = "your_email@gmail.com"
+TO_EMAIL = "your_email@gmail.com" #enter your email again
 #OPTIONAL: TEXT_EMAIL = "your_phone_number@carrier_gateway.com"  # Uncomment and replace with your carrier's email-to-text gateway
 # ======================================================================EDIT BELOW HERE=============================================================
 
