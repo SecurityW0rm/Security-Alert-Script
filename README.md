@@ -6,8 +6,9 @@ Obviously not a SIEM lol, but this script sends you an alert in response to a po
 
 5 failed passwords: A text message will be sent to your phone regarding the suspicious activity. (Optional)
 
-Most major phone carriers have a function where you can use your email to send text messages to yourself.  
-I thought it would be cool to implement it in scripts and some automation stuff.
+Most major phone carriers have a function where you can use your email to send text messages to yourself. 
+However, it's not incredibly quick or "real-time", as the message must traverse the phone company's servers.
+But I thought it would be cool to implement it in scripts and some automation stuff.
 
 Read more about it here: [https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/](https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/)
 
