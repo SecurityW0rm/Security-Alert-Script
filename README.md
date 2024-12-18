@@ -61,7 +61,12 @@ Hit Y for yes
 ---
 
 ### 4. Run the setup script
-Copies the PySIEM.py file to your Desktop:
+
+Change to script directory:
+```powershell
+cd Security-Alert-Script
+```
+This copies the PySIEM.py file to your Desktop:
 ```powershell
 ./setup.ps1
 ```
