@@ -12,3 +12,6 @@ I thought it would be cool to implement it in scripts and some automation stuff.
 Read more about it here: [https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/](https://20somethingfinance.com/how-to-send-text-messages-sms-via-email-for-free/)
 
 You will need to use this for the text notification to work (but optional).
+
+Background:
+Start-Process -FilePath "python" -ArgumentList ".\PySIEM.py" -WindowStyle Hidden
