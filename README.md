@@ -57,12 +57,8 @@ powershell -ExecutionPolicy Bypass -File ./setup.ps1
 ```
 ---
 
-### 4. Run the setup script
+### 4. Edit the script
 
-Change to script directory:
-```powershell
-cd Security-Alert-Script
-```
 The PySIEM.py file should appear on your Desktop
 Edit it with any text editor
 
