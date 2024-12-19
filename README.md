@@ -28,7 +28,7 @@ Read more: [https://20somethingfinance.com/how-to-send-text-messages-sms-via-ema
 1. Python 3.10 or newer installed on the system
 2. The `pywin32` pyhton
 3. A Gmail account
-4. Administrator access to the system to monitor Windows Event Logs
+4. Admin access to the system to monitor Windows Event Logs
 
 ---
 
@@ -41,7 +41,7 @@ Make sure you document it in your notes, because you can only see it once it is 
 
 ### 2. Clone the Repository
 
-Open **PowerShell**, then run:
+Open **PowerShell or Command Prompt**, then run:
 
 ```powershell
 git clone <url>
@@ -53,11 +53,8 @@ cd Security-Alert-Script
 
 ### 3. Bypass Script Execution Policy
 ```powershell
-Get-ExecutionPolicy
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+powershell -ExecutionPolicy Bypass -File ./setup.ps1
 ```
-Hit Y for yes
-
 ---
 
 ### 4. Run the setup script
@@ -66,15 +63,8 @@ Change to script directory:
 ```powershell
 cd Security-Alert-Script
 ```
-This copies the PySIEM.py file to your Desktop:
-```powershell
-./setup.ps1
-```
-
----
-
-### 5. Open up the PySIEM script
-Open with any python text editor
+The PySIEM.py file should appear on your Desktop
+Edit it with any text editor
 
 ![Screenshot 2024-12-18 at 12 09 15](https://github.com/user-attachments/assets/45313f20-e502-4088-bbf6-218ac4af3499)
 
@@ -89,7 +79,7 @@ File -> Save
 
 ---
 
-### 7. Install Dependencies (Still in Powershell)
+### 7. Install Dependencies
 ```powershell
 pip install -r requirements.txt
 ```
