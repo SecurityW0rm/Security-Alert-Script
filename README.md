@@ -41,7 +41,7 @@ Make sure you document it in your notes, because you can only see it once it is 
 
 ### 2. Clone the Repository
 
-Open **PowerShell as Administrator**, then run:
+Open **PowerShell**, then run:
 
 ```powershell
 git clone <url>
