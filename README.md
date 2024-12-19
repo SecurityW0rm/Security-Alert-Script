@@ -65,7 +65,7 @@ The PySIEM.py file should appear on your Desktop, edit it with any text editor
 
 ---
 
-### 6. Edit script
+### 6. Input information
 Again, the carrier's email to gateway is optional
 
 ![Screenshot 2024-12-18 at 12 20 40](https://github.com/user-attachments/assets/1221b666-54dc-4587-898f-70ec45f54f8f)
