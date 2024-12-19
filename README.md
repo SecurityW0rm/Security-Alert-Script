@@ -59,8 +59,7 @@ powershell -ExecutionPolicy Bypass -File ./setup.ps1
 
 ### 4. Edit the script
 
-The PySIEM.py file should appear on your Desktop
-Edit it with any text editor
+The PySIEM.py file should appear on your Desktop, edit it with any text editor
 
 ![Screenshot 2024-12-18 at 12 09 15](https://github.com/user-attachments/assets/45313f20-e502-4088-bbf6-218ac4af3499)
 
